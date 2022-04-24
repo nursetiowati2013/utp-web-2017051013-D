@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Water+Brush&display=swap');
+
+:root{
+  --biru: #090979;
+  --biru-muda: #00d4ff;
+  --cerah:  #efefef;
+  --glass: rgba(255, 255, 255, .6);
+  --judul: 'Water Brush', cursive;
+  --text: 'Raleway', sans-serif;
+}
+
+/* formating */
+body {
+  background-image: linear-gradient(45deg, var(--biru-muda), var(--biru));
+  padding: 0;
+  margin: 0;
+  font-family: var(--text);
+  font-size: 15px;
+  min-height: 100vh;
+}
+.bg-red {
+  background-color: red;
+}
+
+/* header */
+header{
+  background-color: var(--cerah);
+  padding: .1px 0;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+header{
+  font-family: var(--judul);
+  font-size: 2.5rem;
+}
+
+/* content tabel */
+.dataset{
+  background-color: var(--glass);
+  max-width: 1200px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 50px 40px;
+}
+.dataset input{
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  color: var(--gelap);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-size: 700;
+
+  transition: all .2s ease-in;
+}
+.dataset input:focus{
+  outline: 1px solid var(--biru);
+  box-shadow: 2px 2px 10px var(--biru), -2px -2px 10px var(--biru);
+  color: var(--biru);
+}
+.dataset button{
+  background-color: var(--biru-muda);
+  margin-left: 20px;
+  padding: 10px 15px;
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  color: var(--cerah);
+  font-size: 16px;
+  transition: all .3s ease-in;
+}
+.dataset button:focus, .dataset button:hover{
+  background-color: var(--biru);
+  box-shadow: 5px 5px 25px var(--biru), -5px -5px 25px var(--biru);
+}
+.dataset table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.dataset table tr{
+  border: 1px solid var(--biru-muda);
+}
+.dataset table th, .dataset table td{
+  padding: 8px 15px;
+}
+.dataset table td{
+  cursor: pointer;
+}
+.dataset table td:nth-child(2){
+  text-transform: capitalize;
+}
+.dataset table td:nth-child(4){
+  text-transform: capitalize;
+}
+.dataset table tbody tr{
+  background-color: var(--cerah);
+  transition: .2s ease-in-out;
+}
+.dataset table tbody tr:hover{
+  background-color: var(--grey);
+}
+.dataset table th{
+  background-color: var(--biru);
+  color: white;
+  text-align: center;
+}
+.dataset table th:nth-child(1), .dataset table td:nth-child(1){
+  width: 10px;
+  text-align: center;
+}
+.dataset table th:nth-child(3), .dataset table td:nth-child(3){
+  width: 200px;
+}
+
+/* list */
+.canva{
+  background-image: linear-gradient(45deg, rgba(255, 56, 56, .6), rgba(181, 28, 252, .6));
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: var(--cerah);
+}
+.canva span:nth-child(1){
+  text-transform: capitalize;
+}
+.canva span:nth-child(2){
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
