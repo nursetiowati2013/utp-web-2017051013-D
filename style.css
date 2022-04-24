@@ -1,0 +1,82 @@
+div{
+    font-family:Avenir Next;
+}
+table, th, td, tr{
+    border:2px solid rgb(211, 211, 211);
+    color: rgb(235, 235, 235);
+    box-shadow: burlywood;
+    text-shadow: darksalmon;
+    font-style: normal;
+    text-align: center;
+}
+
+.profile-image img{
+    margin-top: 50px;
+    width: auto;
+    max-width: 50%;
+    max-height: 250px;
+    border-radius: 100%;
+
+}
+
+body{
+    margin-top: 20px;
+    background-image: url("l.png");
+    
+}
+.tales {
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+    max-height: 300px;
+}
+.layout-main{
+    margin-bottom: 150px;
+}
+.layout-main h2,h5{
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+.layout-main h5{
+    margin-top: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.layout-main h2 em{
+    font-size: 150px;
+    font-style: normal;
+    line-height: 0;
+    letter-spacing: -2px;
+    text-shadow: 7px -5px 0 #fff;
+}
+.sosial-media {
+    position :fixed;
+    top: 50%;
+}
+.sosial-media ul {
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+    background: #f8ecec;
+    border-radius: 50;
+    box-shadow: 20px;
+    padding: 5px;
+}
+.sosial-media ul li {
+    width: 40px;
+    height: 40px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.sosial-media ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-color:#f8ecec;
+    font-size: 14px;
+}
